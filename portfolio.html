@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="./js/bootstrap.bundle.min.js"></script>    <!--Powered by Bootstrap-->
-    <script src="./js/scripts.js"></script>                 <!--and elements from "Freelancer Template"-->
+    <script src="./js/bootstrap.bundle.min.js"></script> <!--Powered by Bootstrap-->
+    <script src="./js/scripts.js"></script> <!--and tidbits from "Freelancer Template"-->
     <title>Cédric Drouille - Portfolio</title>
 </head>
 
@@ -20,7 +20,8 @@
             <a class="navbar-brand text-uppercase ms-n5" href="#pagetop">Highlights</a>
             <button type="button" class="navbar-toggler bg-light text-black rounded collapsed" data-bs-toggle="collapse"
                 data-bs-target="#navResponsive">
-                <span class="navbar-toggler-icon"></span> <!--bouton caché qui remplace les liens nav sur téléphone et tablette-->
+                <span class="navbar-toggler-icon"></span>
+                <!--bouton caché qui remplace les liens nav sur téléphone et tablette-->
             </button>
             <div class="navbar-collapse collapse justify-content-end" id="navResponsive">
                 <ul class="navbar-nav">
@@ -41,15 +42,16 @@
 
     <!-- --------------------------- HEADER --------------------------- -->
 
-<style>
-    header {
-        padding-top: 5rem !important;
-        padding-bottom: 5.5rem !important;
-    }
-</style>
-            <!------------ Image & info d'en-tête ------------>
+    <style>
+        header {
+            padding-top: 5rem !important;
+            padding-bottom: 5.5rem !important;
+        }
+    </style>
+    <!------------ Image & info d'en-tête ------------>
     <header class="masthead bg-secondary text-white text-center">
-        <img class="masthead-avatar mb-4"src="./img/avataaars.png" alt="image avatar homme à lunette barbu cheveux courts">
+        <img class="masthead-avatar mb-4" src="./img/avataaars.png"
+            alt="image avatar homme à lunette barbu cheveux courts">
         <div class="container-fluid">
             <p class="h1 text-center text-white text-uppercase">
                 CÉDRIC DROUILLE
@@ -59,14 +61,14 @@
             Développeur Web full-stack
         </p>
 
-            <!------------ Citation ------------>
+        <!------------ Citation ------------>
         <figure>
-        <blockquote class="blockquote text-italic">
-            <p><em>"A coeur vaillant, rien d'impossible."</em></p>
-        </blockquote>
-        <figcaption class="blockquote-footer">
-            <p>Jacques Coeur</p>
-        </figcaption>
+            <blockquote class="blockquote text-italic">
+                <p><em>"A coeur vaillant, rien d'impossible."</em></p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                <p>Jacques Coeur</p>
+            </figcaption>
         </figure>
     </header>
 
@@ -81,35 +83,94 @@
         </p>
         <ul class="text-white pb-2 list-style-none">
             <li>Un CV complet</li>
-            <li>Quelques informations personnelles</li>
-            <li>Quelques-uns des projets sur lesquels j'ai travaillé</li>
-            <li>Un formulaire de contact vous permettant de me contacter</li>
+            <li>Quelques informations personnelles.</li>
+            <li>Quelques-uns des projets sur lesquels j'ai travaillé.</li>
+            <li>Un formulaire de contact si vous souhaitez en savoir plus.</li>
         </ul>
     </div>
 </body>
 
-    <!-- --------------------------- PORTFOLIO --------------------------- -->
+<!-- --------------------------- PORTFOLIO --------------------------- -->
+
+
+
+<!------------ Cards ------------>
 
 <style>
     .card-body a {
-        font-style: normal !important;
+        text-decoration: none !important;
     }
 </style>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="./img/markus-spiske-iar-afB0QQw-unsplash.jpg" alt="Projet1:Partnerds" class="card-image-top">
-                    <div class="card-body">
-                        <p class="h4 card-title"> Partnerds</p>
-                        <p class="card-text">Le projet réalisé en cours de formation, un site de regroupement de joueurs en tous genres.</p>
-                        <a href="#" class="btn-primary py-2 px-2 rounded">Aperçu</a>
-                        </div>
+
+<div class="container border border-warning rounded p-3">
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4"> <!-- gutter 4 / 4 col en lg, 3 en md, 2 en tel-->
+        <div class="col">
+            <div class="card">
+                <img class="card-image-top" src="./img/markus-spiske-iar-afB0QQw-unsplash.jpg" alt="Projet1:Partnerds">
+                <div class="card-body">
+                    <h4 class="card-title">Partnerds</h4>
+                    <p class="card-text">Le projet réalisé en cours de formation, un site de regroupement de joueurs en
+                        tous genres.</p>
+                    <a href="#" class="btn-primary py-2 px-2 rounded mb-2">Agrandir</a>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">
+                        Projet de formation
+                    </small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="card-image-top" src="./img/markus-spiske-iar-afB0QQw-unsplash.jpg" alt="Projet1:Partnerds">
+                <div class="card-body">
+                    <h4 class="card-title">Partnerds</h4>
+                    <p class="card-text">Le projet réalisé en cours de formation, un site de regroupement de joueurs en
+                        tous genres.</p>
+                    <a href="#" class="btn-primary py-2 px-2 rounded mb-2">Agrandir</a>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            Projet de formation
+                        </small>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="col">
+            <div class="card">
+                <img class="card-image-top" src="./img/markus-spiske-iar-afB0QQw-unsplash.jpg" alt="Projet1:Partnerds">
+                <div class="card-body">
+                    <h4 class="card-title">Partnerds</h4>
+                    <p class="card-text">Le projet réalisé en cours de formation, un site de regroupement de joueurs en tous
+                        genres.</p>
+                    <a href="#" class="btn-primary py-2 px-2 rounded mb-2">Agrandir</a>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">
+                        Projet de formation
+                    </small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="card-image-top" src="./img/markus-spiske-iar-afB0QQw-unsplash.jpg" alt="Projet1:Partnerds">
+                <div class="card-body">
+                    <h4 class="card-title">Partnerds</h4>
+                    <p class="card-text">Le projet réalisé en cours de formation, un site de regroupement de joueurs en
+                        tous genres.</p>
+                    <a href="#" class="btn-primary py-2 px-2 rounded mb-2">Agrandir</a>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">
+                        Projet de formation
+                    </small>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
+
 
 
 </html>
